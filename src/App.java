@@ -24,12 +24,11 @@ public class App {
         int[] tuesday = {3, 9, 4};
         int[] wednesday = {7};
         int[] thursday = {40, 41, 43, 45, 44, 42, 38};
-        
-        printArray(snapshot(monday));
-        printArray(snapshot(tuesday));
-        printArray(snapshot(wednesday));
-        printArray(snapshot(thursday));
 
+        printArray(snapshot(monday));  //12, 19, 18
+        printArray(snapshot(tuesday)); //3, 9, 4
+        printArray(snapshot(wednesday)); //7, 7, 7
+        printArray(snapshot(thursday)); //40, 45, 38
     }
 
     public static int[] snapshot(int[] readings) {
